@@ -2,12 +2,12 @@ body{
     background-color: rgba(220, 221, 181, 1);
     margin: 0;
 }
-.container {
+.navbar {
     position: relative;
     width: 100%;
     float: left;
 }
-.button {
+.navinteract {
     background-color: #111417;
     color: #a17f29;
     text-align: center;
@@ -17,9 +17,9 @@ body{
 }
 h2 {
     margin: 0;
-    font-family: Tahoma, sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
-.overlay {
+.navgrad {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -30,10 +30,10 @@ h2 {
     height: 0;
     transition: .5s ease;
 }
-.container:hover .overlay{
+.navbar:hover .navgrad{
     height: 100%;
 }
-#button {
+#navinteract {
     width: 20%;
     height: 30px;
 }
