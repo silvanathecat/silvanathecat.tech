@@ -87,3 +87,11 @@ footer {
     width: 33%;
     float: left;
 }
+
+photobox {
+    padding: 10%;
+    width: 25%;
+    position: relative;
+    float: left;
+    
+}
