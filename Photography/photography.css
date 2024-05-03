@@ -20,7 +20,7 @@ body{
 qs-bold {
     margin: 0;
     font-family: "Quicksand", sans-serif;
-    font-size: x-large;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -40,7 +40,7 @@ qs-footer-content:hover {
 
 qs-footer-header {
     margin: 0;
-    margin-top: 10px;
+    margin-top: 0.625em;
     font-family: "Quicksand", sans-serif;
     font-size: small;
     font-weight: 700;
@@ -52,8 +52,8 @@ qs-footer-header {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0.625em;
+    border-top-right-radius: 0.625em;
     background-image: linear-gradient(rgba(251, 252, 223, 0.0), rgba(251, 252, 223, 0.03125), rgba(251, 252, 223, 0.1768), rgba(251, 252, 223, 0.4871));
     overflow: hidden;
     width: 100%;
@@ -68,13 +68,13 @@ qs-footer-header {
 
 #navinteract {
     width: 20%;
-    height: 40px;
+    height: 2.5em;
 }
 
 footer {
     position: absolute;
     width: 100%;
-    height: 80px;
+    height: 5em;
     background-color: #111417;
     text-align: center;
     bottom: 0;
@@ -88,10 +88,10 @@ footer {
     float: left;
 }
 
-photobox {
+.photobox {
     padding: 10%;
     width: 25%;
+    height: 0.625em;
     position: relative;
     float: left;
-    
 }
