@@ -72,9 +72,9 @@ qs-footer-header {
 }
 
 footer {
-    position: absolute;
-    width: 100%;
-    height: 80px;
+    position: fixed;
+    width: 100vw;
+    height: 12vh;
     background-color: #111417;
     text-align: center;
     bottom: 0;
