@@ -94,13 +94,37 @@ footer {
 }
 
 .photobox {
-    padding: 5vh;
-    width: 15%;
-    height: 7em;
+    width: 21.25vw;
+    height: 50vh;
     position: relative;
     float: left;
-    padding: 3vw;
+    padding: 0vw;
     background-color: #111417;
     margin-top:2vw;
     margin-left: 3vw;
+    border-radius: 1em;
+}
+
+.photocap {
+    height: 25%;
+    width: 100%;
+    text-align: left;
+}
+
+.photo {
+    height:75%;
+    float: top;
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+qs-cap-title {
+    padding-top: 10vh;
+    margin-left: 1vw;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #a17f29;
 }
